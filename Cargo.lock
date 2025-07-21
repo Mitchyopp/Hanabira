@@ -3,6 +3,18 @@
 version = 4
 
 [[package]]
+name = "Hanabira"
+version = "0.1.0"
+dependencies = [
+ "dotenv",
+ "serenity",
+ "sysinfo",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+]
+
+[[package]]
 name = "addr2line"
 version = "0.24.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -290,18 +302,6 @@ dependencies = [
  "once_cell",
  "parking_lot_core",
  "serde",
-]
-
-[[package]]
-name = "dast"
-version = "0.1.0"
-dependencies = [
- "dotenv",
- "serenity",
- "sysinfo",
- "tokio",
- "tracing",
- "tracing-subscriber",
 ]
 
 [[package]]
