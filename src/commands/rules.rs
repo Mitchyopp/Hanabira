@@ -13,7 +13,7 @@ pub async fn run(ctx: &Context, msg: &Message) -> serenity::Result<()> {
         .field("#4 - Moderation", "You may be punished for the following:\n\n>Mass pinging\n>Mass emojis\n>Hate speech/slurs\n>Linkspam\n>Self-promotion", false)
         .field("#5 - Follow discords TOS", "https://discord.com/terms", false)
         .field("#6 - No NFSW", "We don't accept any NSFW in any channel here please.", false)
-        .field("#7 - Don't argue with Admins/Staff please.", "We don't have the patience or time to deal with you if your trying to start an argument. If you feel a staff member is abusing their powers feel free to ping <@431023897882656769>.\n The staff roles are:\n\n<@&1132016166999687168>\n<@&1151538257155338382>\n<@&1128022534441414696>\n<@&1156595385838600202>", false)
+        .field("#7 - Don't argue with Admins/Staff please.", "We don't have the patience or time to deal with you if your trying to start an argument. If you feel a staff member is abusing their powers feel free to ping <@431023897882656769>.\n The staff roles are:\n\n<@&1132016166999687168>\n<@&1128022534441414696>\n<@&1156595385838600202>", false)
         .field("By reacting to this message you agree to the rules!", "", false)
         .color(0xe805a4);
 
