@@ -13,10 +13,11 @@ impl EventHandler for Handler {
         commands::ping::run(&ctx, &msg).await;
         commands::sys::run(&ctx, &msg).await;
         commands::onping::run(&ctx, &msg).await;
+        commands::rude::run(&ctx, &msg).await;
         commands::links::run(&ctx, &msg).await;
         if msg.content == "!rules" {
             let _ = commands::rules::run(&ctx, &msg).await;
-        } 
+        }
     }
 
     async fn ready(&self, _: Context, ready: Ready) {
