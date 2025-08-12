@@ -1,16 +1,16 @@
 # TODO FOR HANIBANA
 
-- [] Finish the rust book
+- [-] Finish the rust book
 - [] Learn async
 - [] Learn Serenity
 - [] Learn Poise
-- [] Develop hanibana 
+- [] Develop hanibana
 
 # Development process
 
 Important extras to learn:
 
-- [] Error handling in rust 
+- [] Error handling in rust
 - [] Tracing for logging&debugging
 - [] Learn how to write tests
 - [] Learn tokio internals
@@ -42,7 +42,7 @@ Important extras to learn:
 
 ## Phase 3
 
-- [] Develop slash commands 
+- [] Develop slash commands
 - [] Error handling
 - [] Purge
 - [] Kick
@@ -99,7 +99,7 @@ Release somewhere around phase 5.
 ### Future ideas
 
 - [] Automod
-- [] Ai integration/custom ai 
+- [] Ai integration/custom ai
 - [] Reaction roles
 - [] Birthday system
 - [] Reminders
@@ -141,7 +141,7 @@ perks:
 - Ability to customize the embed colour on commands they run
 - Add a custom flair/name to their whois
 
-## Supporter 
+## Supporter
 Price: 10 GBP - Once per month recurring payment.
 
 Perks:
@@ -156,7 +156,7 @@ Price: 50 GBP+ - Once per month recurring payment.
 
 Perks:
 
-- Eveything Supporter gets 
+- Eveything Supporter gets
 - Added into the credits of Hanibana!
 
 There will be a command to see all the perks, something like /perks.
